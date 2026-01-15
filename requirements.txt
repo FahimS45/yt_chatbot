@@ -1,0 +1,25 @@
+# --- Core AI Stack (Compatible Versions) ---
+transformers==4.56.0
+peft==0.17.1
+sentence-transformers==3.3.1
+torch==2.5.1
+
+# --- LangChain Ecosystem (LTS 0.3 Series) ---
+# Keeping 0.3 for stability while avoiding 1.x breaking changes
+langchain==0.3.19
+langchain-community==0.3.18
+langchain-openai==0.2.14
+langchain-core==0.3.37
+langchain-huggingface==0.1.0
+
+# --- Support Tools ---
+youtube-transcript-api==1.2.3
+faiss-cpu==1.9.0
+tiktoken==0.8.0
+python-dotenv==1.0.1
+
+# --- FastAPI Stack ---
+fastapi==0.115.6
+uvicorn[standard]==0.34.0
+pydantic==2.10.4
+python-multipart==0.0.19
